@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReservaFacil</title>
+    <link rel="stylesheet" href="styles.css?v=3" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home" data-route="home" aria-label="Ir al inicio">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48">
+            <circle cx="24" cy="24" r="22"></circle>
+            <path d="M14 11v13M10 11v9c0 3 2 4 4 4s4-1 4-4v-9M14 24v13"></path>
+            <path d="M25 11v26"></path>
+            <path d="M31 12c4 3 5 9 2 13v12"></path>
+            <path d="M37 12v25"></path>
+          </svg>
+        </span>
+        <span>ReservaFácil</span>
+      </a>
+      <nav class="top-actions">
+        <button class="ghost hidden" type="button" data-action="back">Volver</button>
+        <button class="ghost hidden" type="button" data-route="calendar">Calendario</button>
+        <button class="primary small" type="button" data-route="login">Iniciar Sesión</button>
+      </nav>
+    </header>
+
+    <main id="app"></main>
+
+    <footer class="benefits" aria-label="Beneficios">
+      <div class="benefit">
+        <span data-icon="calendar"></span>
+        <p><strong>Reservas</strong><br />en línea 24/7</p>
+      </div>
+      <div class="benefit">
+        <span data-icon="users"></span>
+        <p><strong>Mejor experiencia</strong><br />para tus clientes</p>
+      </div>
+      <div class="benefit">
+        <span data-icon="clock"></span>
+        <p><strong>Ahorra tiempo</strong><br />y evita errores</p>
+      </div>
+      <div class="benefit">
+        <span data-icon="shield"></span>
+        <p><strong>Información segura</strong><br />y confiable</p>
+      </div>
+    </footer>
+
+    <script src="script.js?v=3"></script>
+  </body>
+</html>

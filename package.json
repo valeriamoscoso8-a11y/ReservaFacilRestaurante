@@ -1,0 +1,21 @@
+{
+  "name": "reservafacil",
+  "version": "1.0.0",
+  "description": "Sistema web de reservas para restaurantes con base de datos MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "reservas",
+    "restaurante",
+    "mysql",
+    "workbench"
+  ],
+  "dependencies": {
+    "mysql2": "^3.11.5"
+  },
+  "author": "",
+  "license": "MIT"
+}

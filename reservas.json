@@ -1,0 +1,29 @@
+[
+  {
+    "cliente": "Sofia Ortiz",
+    "telefono": "097 321 0987",
+    "fecha": "2026-06-05",
+    "hora": "19:30",
+    "personas": 2,
+    "mesa": "Mesa 1",
+    "comentarios": ""
+  },
+  {
+    "cliente": "Juan Perez",
+    "telefono": "099 123 4567",
+    "fecha": "2026-06-03",
+    "hora": "20:30",
+    "personas": 4,
+    "mesa": "Mesa 2",
+    "comentarios": ""
+  },
+  {
+    "cliente": "Maria Garcia",
+    "telefono": "098 765 4321",
+    "fecha": "2026-06-03",
+    "hora": "19:00",
+    "personas": 2,
+    "mesa": "Mesa 5",
+    "comentarios": "Mesa cerca de la ventana"
+  }
+]
